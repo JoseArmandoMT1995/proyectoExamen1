@@ -1,0 +1,536 @@
+@font-face {
+  font-family: "Lato-Light";
+  src: url(../fuentes/Lato-Light.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Lato-Black";
+  src: url(../fuentes/Lato-Black.ttf) format("truetype");
+}
+
+body {
+  background: #fefefe;
+  font-family: Lato-Light;
+}
+
+header#cabecera .container nav#nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header#cabecera .container .logo h3 {
+  color: #fff;
+}
+
+header#cabecera .container .logo h3:hover,
+header#cabecera .container nav#nav a:hover {
+  color: #000;
+}
+
+main section.principal div .texto p:first-child {
+  color: red;
+}
+
+main section.principal div .texto p:last-child {
+  font-size: 0.8em;
+}
+
+main section.principal div .texto h1 {
+  font-family: Lato-Black;
+  font-size: 5em;
+}
+
+.horas div h3,
+.precio div h3 {
+  font-family: Lato-Black;
+  font-size: 3em;
+  margin-bottom: 0rem !important;
+}
+
+.horas div p {
+  color: red;
+}
+
+.horas div p:last-child {
+  color: black;
+}
+
+.precio div p:first-child {
+  color: #fff;
+}
+
+.about-the-course h1 {
+  font-family: Lato-Black;
+  font-size: 4em;
+}
+
+.about-the-course p {
+  font-size: 1em;
+}
+
+.hours h3 {
+  font-family: Lato-Black;
+  font-size: 3em;
+}
+
+.hours .suntitulo {
+  color: #fff;
+  font-size: 1.2em;
+}
+
+footer .row .texto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+footer .row .texto h1 {
+  font-family: Lato-Black;
+  font-size: 4em;
+  color: #00bbd3;
+}
+
+footer .row .texto p {
+  font-family: Lato-Light;
+  font-size: 2em;
+  color: #fff;
+}
+
+.benefit .titulo h1 {
+  font-family: Lato-Black;
+  font-size: 3em;
+}
+
+.nav-hamburguesa a {
+  font-family: Lato-Black;
+  text-decoration: none;
+  color: #fff !important;
+}
+
+.nav-hamburguesa a:hover {
+  color: #00bbd3 !important;
+}
+
+header#cabecera {
+  background: #00bbd3;
+}
+
+header#cabecera .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header#cabecera .container .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header#cabecera .container .boton-hamburguesa img {
+  width: 50px;
+  height: 50px;
+}
+
+header#cabecera .container .logo img {
+  width: 50px;
+  height: 50px;
+}
+
+header#cabecera .container nav#nav {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.nav-hamburguesa {
+  height: 160px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  background: #c7c6c6;
+}
+
+.nav-hamburguesa div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-hamburguesa a:first-child {
+  margin-top: none;
+  border-top: none;
+}
+
+.nav-hamburguesa a {
+  width: 300px;
+  margin-top: 2px;
+  border-top: solid 1px #000;
+}
+
+.nav-hamburguesa button {
+  margin-top: 10px !important;
+}
+
+main section.principal .titulares {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main section.principal .titulares .texto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main section.principal .imagen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main section.principal .imagen .borde {
+  width: 350px !important;
+  height: 350px !important;
+  border-radius: 50%;
+  border: solid 0.5em #e24b5c;
+}
+
+main section.principal .imagen .borde.imagen-principal {
+  background-image: url("../imgenes/icono1.png");
+  background-size: cover;
+}
+
+main section.precios {
+  background: #00bbd3;
+}
+
+main section.precios .row {
+  border-radius: 5px 5px 5px 5px !important;
+  background: #a7a5a5;
+}
+
+main section.precios .row .precio {
+  border-radius: 0px 5px 5px 0px !important;
+  background: #00bbd3;
+}
+
+.precios .row div .horas.row div {
+  border-right: #00bbd3 1px solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.precios .row div .horas.row div:last-child {
+  border-right: none;
+}
+
+.about .row div:first-child {
+  border-radius: 5px 5px 5px 5px !important;
+  background: #00bbd3;
+}
+
+.benefit {
+  border-top: 1px solid #a7a5a5;
+}
+
+.benefit div .row div .icono-borde {
+  width: 150px !important;
+  height: 150px !important;
+  border-radius: 50%;
+  border: solid 0.5em #e24b5c;
+}
+
+.benefit div .row div .icono-borde#icono1 {
+  background-image: url("../imgenes/trabajo.jpg") !important;
+  background-size: cover;
+}
+
+.benefit div .row div .icono-borde#icono2 {
+  background-image: url("../imgenes/profecional.jpg") !important;
+  background-size: cover;
+}
+
+.benefit div .row div .icono-borde#icono3 {
+  background-image: url("../imgenes/geeks.jpg") !important;
+  background-size: cover;
+}
+
+.benefit div .row .texto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#benefit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer {
+  background: #2f2d59;
+}
+
+footer .row div .icono-borde {
+  width: 300px !important;
+  height: 300px !important;
+  border-radius: 50%;
+  background: #00bbd3;
+}
+
+footer .row div:first-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+footer .row div:last-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+footer .row div img {
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  top: 150px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .benefit div .row div .icono-borde {
+    width: 100px !important;
+    height: 100px !important;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  main section.principal div .texto p:last-child {
+    font-size: 0.8em;
+  }
+  main section.principal div .texto h1 {
+    font-family: Lato-Black;
+    font-size: 4em;
+  }
+  main section.principal .imagen .borde {
+    width: 300px !important;
+    height: 300px !important;
+  }
+  .benefit div .row div .icono-borde {
+    width: 100px !important;
+    height: 100px !important;
+  }
+  .hours h3 {
+    font-family: Lato-Black;
+    font-size: 3em;
+  }
+  .about-the-course p {
+    font-size: 1em;
+  }
+  .hours .suntitulo {
+    color: #fff;
+    font-size: 1.2em;
+  }
+  .about-the-course h1 {
+    font-size: 3em;
+  }
+  .about-the-course p {
+    font-size: 1em;
+  }
+  footer .row {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  main section.principal div .texto p:last-child {
+    font-size: 0.8em;
+  }
+  main section.principal div .texto h1 {
+    font-family: Lato-Black;
+    font-size: 3em;
+  }
+  .horas div h3,
+  .precio div h3 {
+    font-family: Lato-Black;
+    font-size: 2em;
+    margin-bottom: 0rem !important;
+  }
+  .about-the-course h1 {
+    font-size: 2em;
+  }
+  .about-the-course p {
+    font-size: 0.7em;
+  }
+  nav {
+    display: none !important;
+  }
+  main section.principal .imagen .borde {
+    width: 240px !important;
+    height: 240px !important;
+  }
+  .benefit div .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  .benefit div .row div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .benefit div .row div:first-child {
+    margin-bottom: 5px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .horas div,
+  .precio div {
+    padding-left: 1rem !important;
+  }
+  main section.principal .imagen .borde {
+    width: 200px !important;
+    height: 200px !important;
+  }
+}
+
+@media only screen and (max-width: 558px) {
+  .horas div h3,
+  .precio div h3 {
+    font-family: Lato-Black;
+    font-size: 1.5em;
+    margin-bottom: 0rem !important;
+  }
+  .horas div p,
+  .precio div p {
+    font-size: 0.8em;
+  }
+}
+
+@media only screen and (max-width: 478px) {
+  .horas div h3,
+  .precio div h3 {
+    font-family: Lato-Black;
+    font-size: 1.3em;
+    margin-bottom: 0rem !important;
+  }
+  .horas div p,
+  .precio div p {
+    font-size: 0.5em;
+  }
+  main section.principal .imagen .borde {
+    width: 180px !important;
+    height: 180px !important;
+  }
+}
+
+@media only screen and (max-width: 416px) {
+  main section.principal .imagen .borde {
+    width: 150px !important;
+    height: 150px !important;
+  }
+}
+
+/*
+ background-image: url("../imgenes/icono1.png")  no-repeat;
+    background-color: #cccccc;
+*/
+/*# sourceMappingURL=style.css.map */
